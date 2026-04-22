@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://rozkahisaab-bakend.onrender.com/api",
 });
 
 export const getExpenses = () => API.get("/expenses");
